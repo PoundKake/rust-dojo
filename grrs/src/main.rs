@@ -13,14 +13,14 @@ struct Cli {
     path: std::path::PathBuf,
 }
 
-#[test]
-fn check_answer_validity() {
-    assert_eq!(answer(), 42);
-}
-
-fn answer() -> i32 {
-    return 42;
-}
+// #[test]
+// fn check_answer_validity() {
+//     assert_eq!(answer(), 42);
+// }
+//
+// fn answer() -> i32 {
+//     return 42;
+// }
 // #[derive(Debug)]
 // struct CustomError(String);
 
