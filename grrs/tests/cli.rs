@@ -1,5 +1,4 @@
 use assert_cmd::prelude::*; // Add methods on command
-use predicates::prelude::*; // Used for writing assertions
 use std::process::Command; // run programs
 
 #[test]
