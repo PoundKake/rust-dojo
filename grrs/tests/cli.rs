@@ -10,5 +10,5 @@ fn file_does_not_exist() -> Result<(), Box<dyn std::error::Error>> {
         .failure()
         .stderr(predicates::str::contains("could not read file"));
 
-   Ok(()) 
+    Ok(())
 }
