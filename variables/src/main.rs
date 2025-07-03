@@ -35,4 +35,10 @@ fn main() {
     // This will give compile errors
     // let mut spaces = "    ";
     // spaces = spaces.len();
+
+    // Types
+
+    // if we don't use ": u32" the compiler will throw an error
+    let guess: u32 = "42".parse().expect("Not a numer!");
+    println!("{guess}");
 }
